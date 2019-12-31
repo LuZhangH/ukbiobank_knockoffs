@@ -71,7 +71,8 @@ done
 ############################################################
 
 # Load plink and datamash
-export PATH=$PI_HOME/bin/:$PATH
+reuse .plink2-2.00a  ## load plink2 
+#export PATH=$PI_HOME/bin/:$PATH
 
 # Location of input
 DAT_DIR="/home/unix/lu/ukbiobank"
