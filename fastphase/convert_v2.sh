@@ -193,8 +193,8 @@ if [[ ! -f $BASENAME_HAP".ref" ]] || [[ $RESET -eq 1 ]]; then
   echo "----------------------------------------------------------------------------------------------------"
   echo "Cross-referencing haplotypes and genotypes"
   echo "----------------------------------------------------------------------------------------------------"
-  use .gcc-7.3.0 #ml gcc
-  use R-3.5 #ml R
+  reuse .gcc-7.3.0 #ml gcc
+  reuse R-3.5 #ml R
   Rscript --vanilla utils/crossref_alleles.R $CHR
 else
   echo ""
