@@ -1,12 +1,17 @@
-#!/bin/bash
+#!/usr/bin/env bash
+#
 # UK Biobank GWAS
 #
 # Class: script
 #
 # Download data from UK Biobank server
 #
-# Authors: Matteo Sesia
-# Date:    06/24/2018
+# wrapper script for job submission on Broad UGER cluster
+#
+# adopted from Nik and Matteo's scripts
+#
+# Author: Lu Zhang
+# Date:   12/28/2019
 
 ##############################
 # Parse input

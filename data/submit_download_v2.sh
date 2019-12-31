@@ -1,6 +1,10 @@
 #!/usr/bin/env bash
-
 # UK Biobank GWAS
+#
+# Class: SLURM dispatcher
+#
+# Download genotype data.
+#
 # wrapper script for job submission on Broad UGER cluster
 #
 # adopted from Nik and Matteo's scripts
