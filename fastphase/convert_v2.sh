@@ -195,7 +195,7 @@ if [[ ! -f $BASENAME_HAP".ref" ]] || [[ $RESET -eq 1 ]]; then
   echo "----------------------------------------------------------------------------------------------------"
   reuse .gcc-7.3.0 #ml gcc
   reuse R-3.5 #ml R
-  Rscript --vanilla utils/crossref_alleles.R $CHR
+  Rscript --vanilla utils/crossref_alleles_v2.R $CHR
 else
   echo ""
   echo "----------------------------------------------------------------------------------------------------"
