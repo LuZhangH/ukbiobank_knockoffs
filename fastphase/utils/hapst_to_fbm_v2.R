@@ -1,5 +1,6 @@
 #!/usr/bin/env Rscript
 .libPaths("/home/unix/lu/R/x86_64-pc-linux-gnu-library/3.5")
+## already install the following packages on UGER
 suppressMessages(library(data.table))
 suppressMessages(library(bigstatsr))
 
